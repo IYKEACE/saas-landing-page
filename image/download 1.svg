@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Document -->
+  <path d="M7 4h6l4 4v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" stroke="#0CAF60" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M13 4v4h4" stroke="#0CAF60" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+  <!-- Lines on page -->
+  <path d="M8.75 12h6.5M8.75 15h6.5" stroke="#0CAF60" stroke-width="1.6" stroke-linecap="round"></path>
+  <!-- Check badge -->
+  <circle cx="18" cy="18" r="3.5" fill="#E8F7EF" stroke="#0CAF60" stroke-width="1.4"></circle>
+  <path d="M16.7 18l1 1 2-2" stroke="#0CAF60" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
