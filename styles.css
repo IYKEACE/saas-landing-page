@@ -243,6 +243,7 @@ body {
   margin-top: 2rem;
 }
 /* support end */
+
 /* features start */
 /* .features-container{
   margin-top: 3rem;
@@ -273,6 +274,9 @@ body {
 }
 /* features end */
 /* team start */
+.team-content {
+  margin-bottom: 5rem;
+}
 .card {
   display: flex;
   justify-content: space-evenly;
@@ -286,4 +290,51 @@ body {
   line-height: 1.4;
   color: #666666;
 }
-/* team start */
+/* team end */
+
+/* benefit start */
+.benefit-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.ben{
+  font-size: 50px;
+}
+.check-all{
+  margin-top: 3rem;
+}
+.check-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: Arial, sans-serif;
+  line-height: 3;
+  font-size: 20px;
+}
+
+.circle-check {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #22c55e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+/* benefit end */
+.lan{
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+}
+.loose{
+  align-items: center;
+  color: #666666;
+  text-align: center;
+  margin-top: 2rem;
+}
