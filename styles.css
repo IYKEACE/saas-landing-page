@@ -179,7 +179,7 @@ body {
 /* support start  */
 .support-container {
   align-items: center;
-  background-color: #5500d4;
+  background-color: #f9f8fe;
   width: 100%;
   /* border-radius: 15px; */
   gap: 3rem;
@@ -197,15 +197,17 @@ body {
   line-height: 1.4;
   font-size: 50px;
 }
-.com {
-  line-height: 1.4;
-  color: #666666;
-  margin-top: 1rem;
-}
-/* support start  */
-.support-container {
-  background: #f9f8fe;
-}
+/* display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap: 1rem;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+border-radius: 10px;
+width: 228px;
+margin-left: auto;
+margin-right: auto; */
 .star {
   display: flex;
   gap: 2rem;
@@ -299,10 +301,10 @@ body {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-.ben{
+.ben {
   font-size: 50px;
 }
-.check-all{
+.check-all {
   margin-top: 3rem;
 }
 .check-text {
@@ -318,7 +320,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #22c55e;
+  background: #6bc2a1;
   color: white;
   display: flex;
   justify-content: center;
@@ -327,14 +329,162 @@ body {
   /* font-weight: bold; */
 }
 /* benefit end */
-.lan{
+.lan {
   align-items: center;
   text-align: center;
   font-size: 35px;
 }
-.loose{
+.loose {
   align-items: center;
   color: #666666;
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cloud {
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  /* gap: 1rem; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 10px;
+  width: 234.8px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.clow {
+  border: none;
+  padding: 16px 20px;
+  font-size: 15px;
+  background-color: #f9f8fe;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.claw {
+  border: none;
+  padding: 12px 20px;
+  font-size: 15px;
+  background-color: #54bd95;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.slide {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 90px 60px;
+  border-radius: 15px;
+  /* cursor: pointer; */
+}
+.slides {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 40px 60px;
+  border-radius: 15px;
+  /* cursor: pointer; */
+  background-color: #6bc2a1;
+  color: #ffffff;
+}
+.slim {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 35px;
+}
+.go {
+  text-align: center;
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.3;
+}
+.gos {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.3;
+}
+.dollar {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666666;
+}
+.dollars {
+  text-align: center;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+.weller {
+  background-color: #ffffff;
+  padding: 40px 38px;
+  border-radius: 15px;
+}
+.users{
+  background-color: #e2e1e7;
+  padding: 40px 38px;
+  border-radius: 15px;
+}
+.dos {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 1rem;
+}
+.zero {
+  color: #000;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 0.6rem;
+}
+.unknown {
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  color: #1b1b1b;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  line-height: 2.5;
+  color: #000;
+  font-size: 15px;
+}
+.user-desc {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #6bc2a1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.signs {
+  border: none;
+  padding: 17px 5rem;
+  border-radius: 13px;
+  color: #ffffff;
+  background-color: #6bc2a1;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.sign {
+  border: none;
+  padding: 17px 5rem;
+  border-radius: 13px;
+  color: #6bc2a1;
+  background-color: #ffffff;
+  margin-top: 1rem;
+  cursor: pointer;
 }
