@@ -14,10 +14,28 @@ img {
   width: 100%;
   height: auto;
 }
+html,
 body {
-  background-color: #e2e1e7;
-  color: #1b1b1b;
-  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  position: relative;
+  z-index: 0;
+  /* Remove any solid background-color */
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(125% 125% at 50% 90%, #ffffff 40%, #10b981 100%);
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
 }
 .container {
   max-width: 2540px;
@@ -29,7 +47,7 @@ body {
 .header-container {
   /* align-items: center; */
   font-size: 20px;
-  background-color: #f9f8fe;
+  /* background-color: #f9f8fe; */
   /* width: 100%; */
   /* border-radius: 15px; */
 }
@@ -179,7 +197,7 @@ body {
 /* support start  */
 .support-container {
   align-items: center;
-  background-color: #f9f8fe;
+  /* background-color: #f9f8fe; */
   width: 100%;
   /* border-radius: 15px; */
   gap: 3rem;
@@ -503,6 +521,18 @@ margin-right: auto; */
   justify-content: space-around;
   padding: 10rem 4rem;
 }
+.book {
+  font-size: 40px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.read {
+  color: #a6a6a6;
+}
+/* .cone{
+  font-size: 150px;
+} */
 .coin {
   width: 80px;
   display: block;
@@ -510,6 +540,59 @@ margin-right: auto; */
   margin-left: auto;
   margin-right: auto;
 }
+.cones {
+  font-size: 50px;
+  margin-top: 2rem;
+  color: #f9f8fe;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.help {
+  color: #a6a6a6;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.aria {
+  color: #666666;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+.man {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+  flex: wrap;
+}
+.lives {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: #161c28;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.ion {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: #fff 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ion::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 13px solid #fff; /* increased width for triangle */
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+}
+
 .get-in-touch {
   width: 100%;
   max-width: 450px;
